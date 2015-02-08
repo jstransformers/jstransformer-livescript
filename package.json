@@ -1,0 +1,21 @@
+{
+  "name": "jstransformer-livescript",
+  "version": "0.0.0",
+  "description": "Transform LiveScript to JavaScript",
+  "keywords": [
+    "jstransformer"
+  ],
+  "dependencies": {
+    "LiveScript": "^1.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-livescript.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
