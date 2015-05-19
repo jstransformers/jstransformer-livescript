@@ -1,19 +1,22 @@
 'use strict';
 
-var fs = require('fs');
 var assert = require('assert');
+var fs = require('fs');
+var join = require('path').join;
+var test = require('testit');
+
 var transform = require('../');
 
-var input = fs.readFileSync(__dirname + '/input.ls', 'utf8');
+var input = 'alert "boom"';
+var expected = 'alert(\"boom\");';
 
-var output = transform.render(input);
+function assertEqual(output, expected) {
+  console.log('   Output:\t'   + JSON.stringify(output));
+  console.log('   Expected:\t' + JSON.stringify(expected));
+  assert(output.indexOf(expected) > 1);
+}
 
-fs.writeFileSync(__dirname + '/output.js', output);
-
-var called = false;
-Function('alert', output)(function (txt) {
-  called = true;
-  assert(txt === 'boom');
+test(transform.name, function () {
+  var output = transform.render(input);
+  assertEqual(output, expected);
 });
-assert(called);
-console.log('tests passed');
