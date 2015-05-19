@@ -1,6 +1,6 @@
 'use strict';
 
-var LiveScript = require('LiveScript');
+var LiveScript = require('livescript');
 
 exports.name = 'LiveScript';
 exports.outputFormat = 'js';
