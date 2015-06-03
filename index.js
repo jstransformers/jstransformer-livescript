@@ -1,4 +1,5 @@
 'use strict';
+
 var LiveScript = require('livescript');
 
 exports.name = 'LiveScript';
