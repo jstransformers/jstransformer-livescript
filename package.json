@@ -3,7 +3,7 @@
     "livescript": "^1.4.0"
   },
   "name": "jstransformer-livescript",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "LiveScript support for JSTransformers.",
   "keywords": [
     "jstransformer"
