@@ -1,5 +1,7 @@
 # jstransformer-livescript
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-livescript.svg)](https://greenkeeper.io/)
+
 [LiveScript](http://livescript.net) support for [JSTransformers](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-livescript/master.svg)](https://travis-ci.org/jstransformers/jstransformer-livescript)
