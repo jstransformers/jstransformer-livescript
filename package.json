@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "livescript": "^1.4.0"
+    "livescript": "^1.5.0"
   },
   "name": "jstransformer-livescript",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "LiveScript support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.18.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",

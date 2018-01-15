@@ -1,6 +1,6 @@
 'use strict'
 
-var liveScript = require('livescript')
+const liveScript = require('livescript')
 
 exports.name = 'LiveScript'
 exports.inputFormats = ['ls', 'livescript']
